@@ -2,7 +2,7 @@
 
 Welome to the Patchwork Health coding task and thank you for taking time to complete it!
 
-## Taskx
+## Task
 
 The task is centred around a payroll system, where we'd like you to write some code that will perform a few calculations.
 The challenge has been broken up into three subtasks, which should help in it's completion.
