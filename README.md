@@ -33,10 +33,10 @@ You can make use the class `Payroll::Ingest` provided in the folder `lib/ingest.
 
 We suggest you make use of these Ruby stdlib modules:
 
-* (CSV)[https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html]
-* Ruby Hash OR (OpenStruct)[https://ruby-doc.org/stdlib-2.6.1/libdoc/ostruct/rdoc/OpenStruct.html]
+* [CSV](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html)
+* Ruby Hash OR [OpenStruct](https://ruby-doc.org/stdlib-2.6.1/libdoc/ostruct/rdoc/OpenStruct.html)
 
-HINT: load the files and merge the two data structures into a single data structure.
+*HINT*: load the files and merge the two data structures into a single data structure.
 
 Remember to write some specs to test what you have written `spec/payroll/ingest_spec.rb` 
 
