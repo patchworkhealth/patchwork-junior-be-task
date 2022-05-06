@@ -122,6 +122,8 @@ Feel free to add any extra Ruby Gems to Gemfile in order to accomplish these tas
 
 Run `bin/rspec` to run your tests. You can also give RSpec a specific file you'd like it to test, for example: `bin/rspec ./spec/lib/payroll_spec.rb`
 
+We've also set up the [Guard Gem](https://github.com/guard/guard-rspec), which will automatically run specs as you save your files. Run `bin/guard` in your Terminal, and once it's started up it will watch for any changes in `./lib` or `./spec`, and will automatically run the correct tests for you. This will save you from having to manually run `bin/rspec` every time you change a file.
+
 ### Using the Interactive Ruby prompt
 
 Run `bin/console` to start an IRB (Interactive Ruby) prompt, which will allow you to run your code directly. For example, if you had a Ruby class that looked like this:
