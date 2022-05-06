@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "ingest"
-require "report"
 require "payroll"
 
 RSpec.configure do |config|

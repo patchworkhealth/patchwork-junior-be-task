@@ -1,11 +1,9 @@
 # frozen_string_literal: true
 
-require 'ingest'
-require 'report'
-
-# Subtask 3 - wrap it all up
+require_relative './payroll/ingest'
+require_relative './payroll/report'
+require_relative './payroll/version'
 
 module Payroll
-  class Payroll
-  end
+  # Task 3 - Wrap it all up
 end

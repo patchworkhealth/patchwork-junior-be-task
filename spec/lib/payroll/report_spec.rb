@@ -3,7 +3,5 @@
 RSpec.describe Payroll::Report do
   subject(:report) { described_class.new }
 
-  it "does nothing really" do
-    expect(1).to eq(1)
-  end
+  # Add your specs for Task 2 here
 end

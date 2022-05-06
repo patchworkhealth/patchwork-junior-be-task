@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-# Subtask 2 - generate a report
-
 module Payroll
   class Report
+    # Task 2 - Generate a report
   end
 end

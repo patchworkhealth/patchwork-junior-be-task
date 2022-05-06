@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# Subtask 1 - data ingestion
 
 module Payroll
   class Ingest
+    # Task 1 - Ingest data
   end
 end
