@@ -53,7 +53,7 @@ For the first task you'll need to load the data from the files as described abov
 
 NOTE: you do **not** have to write any _validation_ logic in your code.
 
-You can make use the class `Payroll::Ingest` provided in the folder `lib/ingest.rb` to write the data ingestion code.
+You can make use the class `Payroll::Ingest` provided in the folder `lib/payroll/ingest.rb` to write the data ingestion code.
 
 We suggest you make use of these Ruby "standard library" (stdlib) modules:
 
@@ -62,7 +62,7 @@ We suggest you make use of these Ruby "standard library" (stdlib) modules:
 
 _HINT_: load the files and merge the two sets of data into a single structure.
 
-Remember to write some specs to test what you have written `spec/payroll/ingest_spec.rb`
+Remember to write some specs to test what you have written `spec/lib/payroll/ingest_spec.rb`
 
 ### Task 2 - Generate a report
 
@@ -73,15 +73,15 @@ The next task will be to generate a report that makes use of the data structure 
 - the amount we need to PAY each worker
 - the amount we need to BILL each department
 
-Add your code to `lib/report.rb`. You can use any data structure to capture these calculated values.
+Add your code to `lib/payroll/report.rb`. You can use any data structure to capture these calculated values.
 
-Remember to write some specs to test what you have written `spec/payroll/report_spec.rb`.
+Remember to write some specs to test what you have written `spec/lib/payroll/report_spec.rb`.
 
 ### Task 3 - Wrap it all up
 
 Finally, you can write a wrapper class the calls your code in `ingest` and `report` and prints a basic report to the console. To present your data, use an established format such as JSON or YAML.
 
-This code should be added in `lib/payroll.rb`, and its specs in `spec/payroll/payroll_spec.rb`
+This code should be added in `lib/payroll.rb`, and its specs in `spec/lib/payroll_spec.rb`
 
 ## Submission Instructions
 
@@ -120,7 +120,7 @@ Feel free to add any extra Ruby Gems to Gemfile in order to accomplish these tas
 
 ### Testing
 
-Run `bin/rspec` to run your tests. You can also give RSpec a specific file you'd like it to test, for example: `bin/rspec ./spec/payroll_spec.rb`
+Run `bin/rspec` to run your tests. You can also give RSpec a specific file you'd like it to test, for example: `bin/rspec ./spec/lib/payroll_spec.rb`
 
 ### Using the Interactive Ruby prompt
 
