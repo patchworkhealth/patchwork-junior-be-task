@@ -1,16 +1,19 @@
 AllCops:
+  Exclude:
+    - "**/Gemfile"
+    - "**/Guardfile"
+    - "**/Rakefile"
+    - "bin/**/*"
+    - "tmp/**/*"
+  NewCops: "enable"
+  RubyInterpreters:
+    - "ruby"
+  StyleGuideBaseURL: "https://rubystyle.guide"
+  SuggestExtensions: false
   TargetRubyVersion: 2.6
 
 Style/Documentation:
   Enabled: false
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
 
 Layout/LineLength:
   Max: 120
